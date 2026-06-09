@@ -1,1 +1,12 @@
-Trial Text file
+/tmp:
+config-err-PxG8m3
+node-compile-cache
+snap-private-tmp
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-colord.service-4CepNC
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-fwupd.service-h6EAGd
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-ModemManager.service-xrUc3a
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-polkit.service-IZUSvs
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-systemd-logind.service-FBUJZS
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-systemd-resolved.service-cnDB5U
+systemd-private-96f07474dc6e4ff3b0f6546244e28bda-upower.service-JpXmyL
+VMwareDnD

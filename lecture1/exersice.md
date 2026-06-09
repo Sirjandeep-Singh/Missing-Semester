@@ -51,7 +51,7 @@ Output:
 ```
 
 ### 4. What’s the difference between 'single quotes', "double quotes", and `$'ANSI quotes'?` Write a command that echoes a string containing a literal `$`, `a` `!`, and a newline character.
-All are different quoting methodologies with difference in how the system interprets them.  Strings delimited with ' are literal strings and will not expand variables, perform command substitution, or process escape sequences, whereas " delimited strings will.
+All are different quoting methodologies with difference in how the system interprets them.  Strings delimited with `'` are literal strings and will not expand variables, perform command substitution, or process escape sequences, whereas `"` delimited strings will.
 '''
 (base) sirjan@sirjan-VirtualBox:~/Desktop/Missing-Semester/lecture1$ echo -e 'hello \n this a new line $'
 hello 

@@ -1,6 +1,6 @@
 # Arguments and Globs
 ### 1. You might see commands like cmd --flag -- --notaflag. The -- is a special argument that tells the program to stop parsing flags. Everything after -- is treated as a positional argument. Why might this be useful? Try running touch -- -myfile and then removing it without --.
-With -- No error because -myfile is not treated as an argument. without -- an error occurs.
+With -- No error because -myfile is not treated as a flag but an argument createing a file named `-myfile`. without -- an error occurs because touch tries to treat `-myfile` as a flag.
 
 ### 2. Read man ls and write an ls command that lists files in the following manner: Includes all files, including hidden files Sizes are listed in human readable format (e.g. 454M instead of 454279954) Files are ordered by recency Output is colorized A sample output would look like this:
 ls -laht
@@ -53,3 +53,7 @@ alias git status="gs"
 (base) sirjan@sirjan-VirtualBox:~/.ssh$ ls
 authorized_keys  id_ed25519  id_ed25519.pub  known_hosts  known_hosts.old
 ```
+
+# Enviroment Variables
+### 1. Write bash functions marco and polo that do the following: whenever you execute marco the current working directory should be saved in some manner, then when you execute polo, no matter what directory you are in, polo should cd you back to the directory where you executed marco. For ease of debugging you can write the code in a file marco.sh and (re)load the definitions to your shell by executing source marco.sh.
+marcopolo.sh

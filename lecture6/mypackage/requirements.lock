@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/Sirjandeep-Singh/Missing-Semester.git@9f3c040f127cd995b8f5201002834256f4c4f2c1#egg=mypackage&subdirectory=lecture6/mypackage

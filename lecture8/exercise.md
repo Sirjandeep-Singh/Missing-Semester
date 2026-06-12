@@ -21,4 +21,4 @@ The Odin Project
 Nodejs
 
 ### 6. Go to Stack Overflow and find a question in a technology you know that has a highly-voted answer. Then find one that was closed or heavily downvoted. Compare them against the advice from the lecture; was it predictable which question would get better answers?
-Cpp for loop branch prediction for highly voted answer vs 
+Cpp for loop branch prediction for highly voted answer
